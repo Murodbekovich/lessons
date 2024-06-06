@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+    padding: 5% 10%;
+}
+
+#photo {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+#photo > img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#p {
+    background-color: rgb(230, 218, 247);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: rgb(156, 86, 1);
+}
+

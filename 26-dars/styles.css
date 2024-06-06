@@ -1,0 +1,179 @@
+  /* darkPurple: 'hsl(273, 85%, 13%)',
+  lightPurple: 'hsl(271, 12%, 34%)',
+  veryLightPurple: 'hsl(276, 100%, 99%)',
+  white: 'hsl(0, 0%, 100%)',
+  green: 'hsl(150, 100%, 63%)' */
+
+header {
+  background-color: hsl(273, 85%, 13%);
+  position: relative;
+  padding-bottom: 400px;
+  border-radius: 0 0 15% 15%;
+}
+
+nav img {
+  float: left;
+}
+
+nav a {
+  float: right;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: underline hsl(150, 100%, 63%);
+
+}
+
+nav {
+  padding: 40px 200px;
+}
+
+h1 {
+  font-size: 5rem;
+  color: hsl(276, 100%, 99%);
+}
+
+button {
+  padding: 16px;
+  background-color: hsl(150, 100%, 63%);
+  border: none;
+}
+
+#main {
+  text-align: center;
+}
+
+#main-img {
+  width: 600px;
+  position: absolute;
+  left: 35%;
+  margin-top: 100px;
+}
+
+#tailler {
+  text-decoration: underline hsl(150, 100%, 63%);
+}
+
+#bg-pattern-1 {
+  position: absolute;
+}
+
+#bg-pattern-2 {
+  position: absolute;
+  right: 0;
+}
+
+.card {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card span {
+  border: 1px solid hsl(273, 85%, 13%);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card h2 {
+  font-size: 2rem;
+  color: hsl(273, 85%, 13%);
+}
+
+#about {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(276, 100%, 99%);
+  padding: 200px 12%;
+  border-radius: 100% / 0 0 10% 10%;
+}
+
+#founder-img {
+  width: 400px;
+  position: absolute;
+  left: -250px;
+  top: -250px;
+  z-index: -1;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#founder div {
+  background-color: hsl(273, 85%, 13%);
+  height: 400px;
+  width: 600px;
+  padding: 40px;
+  color: hsl(276, 100%, 99%);
+  margin: 0 auto;
+  position: relative;
+}
+
+#founder {
+  padding: 300px 0;
+}
+
+#founder {
+  font-size: 2rem;
+}
+
+#bg3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer img {
+  margin: 20px;
+}
+
+@media (max-width: 450px) {
+  nav {
+    padding: 20px;
+  }
+  #main-img {
+    width: 300px;
+    left: 20%;
+    margin-top: 50px;
+  }
+  #bg-pattern-1 {
+    width: 100px;
+  }
+  #bg-pattern-2 {
+    width: 100px;
+  }
+  header {
+    padding-bottom: 200px;
+  }
+  .card {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #founder div {
+    width: 100%;
+    height: 600px;
+    padding: 5px;
+    margin: 0;
+  } 
+  #founder-img {
+    width: 250px;
+    left: 75px;
+  }
+  #about {
+    padding: 0;
+  }
+}
